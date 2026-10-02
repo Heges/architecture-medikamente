@@ -1,0 +1,1366 @@
+<mxfile host="Electron" compressed="false" pages="14">
+  <diagram id="01a" name="01a · Регистрация и договор · Сейчас">
+    <mxGraphModel dx="1646" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=28;fontStyle=1;" value="Регистрация пациента и оформление договора" vertex="1">
+          <mxGeometry height="46" width="1480" x="40" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="column0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="УЧАСТНИКИ" vertex="1">
+          <mxGeometry height="22" width="240" x="40" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ОПЕРАЦИИ" vertex="1">
+          <mxGeometry height="22" width="360" x="570" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ХРАНИЛИЩА" vertex="1">
+          <mxGeometry height="22" width="300" x="1220" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="patient" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Пациент&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="patient2" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Пациент&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="register" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;1.1 Зарегистрировать пациента&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Ресепшен · ручной ввод&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="contract" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;1.2 Оформить договор&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Ресепшен · работа с документом&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="patients" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 01 · Список пациентов&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Patients · Excel на общем диске&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="patients-top" connectable="0" parent="patients" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="patients-bottom" connectable="0" parent="patients" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="contracts" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 02 · Договоры&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Документы в папке пациента&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="contracts-top" connectable="0" parent="contracts" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="contracts-bottom" connectable="0" parent="contracts" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" edge="1" parent="1" source="patient" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="register" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Фамилия, имя, дата рождения,&lt;br&gt;контакты и данные анкеты&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2" edge="1" parent="1" source="register" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="patient" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения для проверки&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" edge="1" parent="1" source="register" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="patients" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Новая или исправленная&lt;br&gt;запись пациента&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" edge="1" parent="1" source="patients" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="register" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Существующая&lt;br&gt;запись пациента&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" edge="1" parent="1" source="register" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0.5;exitY=1;exitPerimeter=1;entryX=0.5;entryY=0;entryPerimeter=1;" target="contract" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения пациента&lt;br&gt;для договора&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow6" edge="1" parent="1" source="patient2" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="contract" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения для&lt;br&gt;оформления договора&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow7" edge="1" parent="1" source="contract" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="patient2" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Договор&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow8" edge="1" parent="1" source="contract" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="contracts" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Оформленный договор&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow9" edge="1" parent="1" source="contracts" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="contract" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сохраненный договор&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footerline" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="footerTitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=1;" value="Пояснения" vertex="1">
+          <mxGeometry height="28" width="1480" x="40" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Расширенная анкета содержит адрес, место работы или учебы и хронические заболевания." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="874" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Медицинскую часть анкеты учитывает процесс ведения медицинской карты. Сейчас разделение прав не описано." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="931" as="geometry" />
+        </mxCell>
+        <mxCell id="pageNumber" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;align=right;" value="1 / 14" vertex="1">
+          <mxGeometry height="25" width="90" x="1430" y="1060" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="01b" name="01b · Регистрация и договор · Защита">
+    <mxGraphModel dx="1646" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=28;fontStyle=1;" value="Регистрация пациента и оформление договора" vertex="1">
+          <mxGeometry height="46" width="1480" x="40" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="column0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="УЧАСТНИКИ" vertex="1">
+          <mxGeometry height="22" width="240" x="40" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ОПЕРАЦИИ" vertex="1">
+          <mxGeometry height="22" width="360" x="570" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ХРАНИЛИЩА" vertex="1">
+          <mxGeometry height="22" width="300" x="1220" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="patient" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Пациент&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="patient2" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Пациент&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="register" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;1.1 Зарегистрировать пациента&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Ресепшен · ручной ввод&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Сбор по цели; права ресепшена;&lt;br&gt;аудит Windows&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="contract" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;1.2 Оформить договор&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Ресепшен · работа с документом&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Только нужные сведения;&lt;br&gt;права ресепшена; аудит Windows&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="patients" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 01 · Список пациентов&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Patients · Excel на общем диске&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Atlas: Персональные&lt;br&gt;Шифрование диска; права на файл&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="patients-top" connectable="0" parent="patients" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="patients-bottom" connectable="0" parent="patients" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="contracts" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 02 · Договоры&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Документы в папке пациента&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Atlas: Персональные&lt;br&gt;Шифрование диска; закрытая папка&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="contracts-top" connectable="0" parent="contracts" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="contracts-bottom" connectable="0" parent="contracts" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" edge="1" parent="1" source="patient" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="register" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Фамилия, имя, дата рождения,&lt;br&gt;контакты для регистрации&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Только поля с определенной целью&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2" edge="1" parent="1" source="register" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="patient" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения для проверки&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" edge="1" parent="1" source="register" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="patients" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Новая или исправленная&lt;br&gt;запись пациента&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" edge="1" parent="1" source="patients" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="register" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Существующая&lt;br&gt;запись пациента&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" edge="1" parent="1" source="register" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0.5;exitY=1;exitPerimeter=1;entryX=0.5;entryY=0;entryPerimeter=1;" target="contract" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения пациента&lt;br&gt;для договора&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Без медицинской анкеты&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow6" edge="1" parent="1" source="patient2" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="contract" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения для&lt;br&gt;оформления договора&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow7" edge="1" parent="1" source="contract" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="patient2" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Договор&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow8" edge="1" parent="1" source="contract" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="contracts" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Оформленный договор&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow9" edge="1" parent="1" source="contracts" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="contract" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сохраненный договор&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footerline" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="footerTitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=1;" value="Пояснения" vertex="1">
+          <mxGeometry height="28" width="1480" x="40" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Медицинские ответы хранятся отдельно от регистрационных сведений и недоступны ресепшену." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="874" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Вместо фамилии и даты рождения в пути используется код пациента. Это обфускация, а не обезличивание." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="931" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Atlas учитывает теги; права применяются в Windows. Чтение, изменение и удаление файлов попадают в аудит." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="988" as="geometry" />
+        </mxCell>
+        <mxCell id="pageNumber" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;align=right;" value="2 / 14" vertex="1">
+          <mxGeometry height="25" width="90" x="1430" y="1060" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="02a" name="02a · Запись к специалисту · Сейчас">
+    <mxGraphModel dx="1646" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=28;fontStyle=1;" value="Запись пациента к специалисту" vertex="1">
+          <mxGeometry height="46" width="1480" x="40" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;" value="Текущее состояние · по описанию компании и исходной схеме" vertex="1">
+          <mxGeometry height="32" width="1480" x="40" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="column0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="УЧАСТНИКИ" vertex="1">
+          <mxGeometry height="22" width="240" x="40" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ОПЕРАЦИИ" vertex="1">
+          <mxGeometry height="22" width="360" x="570" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ХРАНИЛИЩА" vertex="1">
+          <mxGeometry height="22" width="300" x="1220" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="patient" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Пациент&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="doctor" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Медицинский специалист&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="appointment" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;2.1 Записать пациента&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Ресепшен · ручной ввод&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="journal" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;2.2 Просмотреть и изменить журнал&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Медицинский специалист&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="journal1" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 03 · Журнал приема&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Excel · журнал специалиста&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="journal1-top" connectable="0" parent="journal1" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="journal1-bottom" connectable="0" parent="journal1" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="journal2" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 03 · Журнал приема&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Тот же журнал специалиста&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="journal2-top" connectable="0" parent="journal2" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="journal2-bottom" connectable="0" parent="journal2" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" edge="1" parent="1" source="patient" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="appointment" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Данные пациента,&lt;br&gt;специалист, дата и время&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2" edge="1" parent="1" source="appointment" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="patient" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения о записи&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" edge="1" parent="1" source="appointment" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="journal1" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Запись пациента&lt;br&gt;к специалисту&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" edge="1" parent="1" source="journal1" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="appointment" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Существующие записи&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" edge="1" parent="1" source="doctor" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="journal" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Запрос журнала,&lt;br&gt;изменения записей&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow6" edge="1" parent="1" source="journal" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="doctor" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Журнал приема&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow7" edge="1" parent="1" source="journal" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="journal2" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Измененная запись&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow8" edge="1" parent="1" source="journal2" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="journal" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Записи своего приема&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footerline" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="footerTitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=1;" value="Пояснения" vertex="1">
+          <mxGeometry height="28" width="1480" x="40" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Исходная схема показывает отдельные журналы специалистов и их просмотр и редактирование врачами." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="874" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Логическое назначение журнала не означает ограничения прав: по условию доступ после входа в домен не разграничен." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="931" as="geometry" />
+        </mxCell>
+        <mxCell id="pageNumber" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;align=right;" value="3 / 14" vertex="1">
+          <mxGeometry height="25" width="90" x="1430" y="1060" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="02b" name="02b · Запись к специалисту · Защита">
+    <mxGraphModel dx="1646" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=28;fontStyle=1;" value="Запись пациента к специалисту" vertex="1">
+          <mxGeometry height="46" width="1480" x="40" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;" value="Предлагаемые меры защиты · те же процессы и хранилища" vertex="1">
+          <mxGeometry height="32" width="1480" x="40" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="column0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="УЧАСТНИКИ" vertex="1">
+          <mxGeometry height="22" width="240" x="40" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ОПЕРАЦИИ" vertex="1">
+          <mxGeometry height="22" width="360" x="570" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ХРАНИЛИЩА" vertex="1">
+          <mxGeometry height="22" width="300" x="1220" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="patient" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Пациент&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="doctor" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Медицинский специалист&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="appointment" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;2.1 Записать пациента&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Ресепшен · ручной ввод&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Нужные сведения для записи;&lt;br&gt;права ресепшена; аудит Windows&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="journal" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;2.2 Просмотреть и изменить журнал&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Медицинский специалист&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Только журнал своего приема;&lt;br&gt;аудит Windows&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="journal1" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 03 · Журнал приема&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Excel · журнал специалиста&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Atlas: Персональные&lt;br&gt;Шифрование диска; права на файл&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="journal1-top" connectable="0" parent="journal1" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="journal1-bottom" connectable="0" parent="journal1" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="journal2" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 03 · Журнал приема&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Тот же журнал специалиста&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Atlas: Персональные&lt;br&gt;Шифрование диска; права на файл&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="journal2-top" connectable="0" parent="journal2" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="journal2-bottom" connectable="0" parent="journal2" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" edge="1" parent="1" source="patient" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="appointment" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Данные пациента,&lt;br&gt;специалист, дата и время&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2" edge="1" parent="1" source="appointment" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="patient" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения о записи&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" edge="1" parent="1" source="appointment" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="journal1" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Запись пациента&lt;br&gt;к специалисту&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" edge="1" parent="1" source="journal1" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="appointment" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Существующие записи&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" edge="1" parent="1" source="doctor" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="journal" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Запрос журнала,&lt;br&gt;изменения записей&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow6" edge="1" parent="1" source="journal" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="doctor" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Журнал приема&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow7" edge="1" parent="1" source="journal" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="journal2" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Измененная запись&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow8" edge="1" parent="1" source="journal2" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="journal" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Записи своего приема&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footerline" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="footerTitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=1;" value="Пояснения" vertex="1">
+          <mxGeometry height="28" width="1480" x="40" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="В журнале остаются данные для идентификации пациента и записи. Диагнозы и результаты анализов в него не переносятся." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="874" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Папки и файлы журналов имеют разные права. Ресепшен работает с записью, врач — со своим журналом." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="931" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Шифруются диск и доступ к общим файлам по SMB; Atlas хранит описание и теги журналов." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="988" as="geometry" />
+        </mxCell>
+        <mxCell id="pageNumber" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;align=right;" value="4 / 14" vertex="1">
+          <mxGeometry height="25" width="90" x="1430" y="1060" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="03a" name="03a · Медицинская карта · Сейчас">
+    <mxGraphModel dx="1646" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=28;fontStyle=1;" value="Ведение медицинской карты" vertex="1">
+          <mxGeometry height="46" width="1480" x="40" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;" value="Текущее состояние · по описанию компании и исходной схеме" vertex="1">
+          <mxGeometry height="32" width="1480" x="40" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="column0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="УЧАСТНИКИ" vertex="1">
+          <mxGeometry height="22" width="240" x="40" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ОПЕРАЦИИ" vertex="1">
+          <mxGeometry height="22" width="360" x="570" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ХРАНИЛИЩА" vertex="1">
+          <mxGeometry height="22" width="300" x="1220" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="patient" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Пациент&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="doctor" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Медицинский специалист&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="history" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;3.1 Внести сведения о здоровье&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Медицинский специалист · ручной ввод&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="visit" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;3.2 Провести прием и записать заключение&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Медицинский специалист&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="card1" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 04 · Медицинская карта&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Документы пациента · Excel, JPG, PDF&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="card1-top" connectable="0" parent="card1" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="card1-bottom" connectable="0" parent="card1" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="card2" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 04 · Медицинская карта&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Те же документы пациента&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="card2-top" connectable="0" parent="card2" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="card2-bottom" connectable="0" parent="card2" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" edge="1" parent="1" source="patient" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="history" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения о здоровье,&lt;br&gt;хронических заболеваниях&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2" edge="1" parent="1" source="history" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="card1" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения для&lt;br&gt;медицинской карты&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" edge="1" parent="1" source="card1" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="history" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Предыдущие сведения&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" edge="1" parent="1" source="doctor" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="visit" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Пациент, данные осмотра,&lt;br&gt;заключение&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" edge="1" parent="1" source="visit" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="doctor" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;История и результаты&lt;br&gt;обследований&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow6" edge="1" parent="1" source="visit" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="card2" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Новое заключение&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow7" edge="1" parent="1" source="card2" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="visit" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Медицинская карта&lt;br&gt;и результаты анализов&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footerline" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="footerTitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=1;" value="Пояснения" vertex="1">
+          <mxGeometry height="28" width="1480" x="40" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Хранение медицинских карт в файлах задано в условии; операции врача показаны как ручная работа с картой." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="874" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Фамилия и дата рождения в названии папки раскрывают личность пациента. Аудит доступа отсутствует." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="931" as="geometry" />
+        </mxCell>
+        <mxCell id="pageNumber" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;align=right;" value="5 / 14" vertex="1">
+          <mxGeometry height="25" width="90" x="1430" y="1060" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="03b" name="03b · Медицинская карта · Защита">
+    <mxGraphModel dx="1560" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Ведение медицинской карты" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=28;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="22" width="1480" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Предлагаемые меры защиты · те же процессы и хранилища" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="78" width="1480" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" value="" style="shape=line;strokeColor=#000000;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="126" width="1480" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="column0" value="УЧАСТНИКИ" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="146" width="240" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="column1" value="ОПЕРАЦИИ" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="146" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="column2" value="ХРАНИЛИЩА" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="146" width="300" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="patient" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Пациент&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="200.0" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="doctor" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Медицинский специалист&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="540.0" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="history" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;3.1 Внести сведения о здоровье&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Медицинский специалист · ручной ввод&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Доступ к карте своего пациента;&lt;br&gt;аудит Windows&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="185.0" width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="visit" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;3.2 Провести прием и записать заключение&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Медицинский специалист&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Проверка пациента и права доступа;&lt;br&gt;аудит Windows&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="525.0" width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="card1" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 04 · Медицинская карта&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Документы пациента · Excel, JPG, PDF&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Atlas: Персональные, Медицинские&lt;br&gt;Шифрование диска; доступ по пациенту&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="185.0" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="card1-top" value="" style="shape=line;strokeColor=#000000;strokeWidth=2;" parent="card1" vertex="1" connectable="0">
+          <mxGeometry x="0" y="0" width="300" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="card1-bottom" value="" style="shape=line;strokeColor=#000000;strokeWidth=2;" parent="card1" vertex="1" connectable="0">
+          <mxGeometry x="0" y="150" width="300" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="card2" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 04 · Медицинская карта&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Те же документы пациента&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Atlas: Персональные, Медицинские&lt;br&gt;Шифрование диска; доступ по пациенту&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="525.0" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="card2-top" value="" style="shape=line;strokeColor=#000000;strokeWidth=2;" parent="card2" vertex="1" connectable="0">
+          <mxGeometry x="0" y="0" width="300" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="card2-bottom" value="" style="shape=line;strokeColor=#000000;strokeWidth=2;" parent="card2" vertex="1" connectable="0">
+          <mxGeometry x="0" y="150" width="300" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения о здоровье,&lt;br&gt;хронических заболеваниях&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" edge="1" parent="1" source="patient" target="history">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения для&lt;br&gt;медицинской карты&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" edge="1" parent="1" source="history" target="card1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Предыдущие сведения&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" edge="1" parent="1" source="card1" target="history">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Пациент, данные осмотра,&lt;br&gt;заключение&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" edge="1" parent="1" source="doctor" target="visit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;История и результаты&lt;br&gt;обследований&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" edge="1" parent="1" source="visit" target="doctor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow6" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Новое заключение&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" edge="1" parent="1" source="visit" target="card2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow7" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Медицинская карта&lt;br&gt;и результаты анализов&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" edge="1" parent="1" source="card2" target="visit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footerline" value="" style="shape=line;strokeColor=#000000;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="815" width="1480" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footerTitle" value="Пояснения" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="832" width="1480" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" value="Доступ к папке получает врач, работающий с пациентом. Кассир и ресепшен не читают медицинское содержимое." style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="40" y="874" width="1480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" value="Файл со смешанными данными защищается целиком. Теги столбцов сами по себе не ограничивают чтение Excel." style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="40" y="931" width="1480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" value="В журнале аудита сохраняются пользователь, объект, время и действие, без диагнозов и текста заключения." style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="40" y="988" width="1480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Прямоугольник — участник · Скругленный блок — операция · Две линии — хранилище · Стрелка — данные" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1060" width="1400" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="pageNumber" value="6 / 14" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;align=right;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="1060" width="90" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="04a" name="04a · Анализы · Сейчас">
+    <mxGraphModel dx="1646" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=28;fontStyle=1;" value="Учет анализов и результатов" vertex="1">
+          <mxGeometry height="46" width="1480" x="40" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;" value="Текущее состояние · по описанию компании и исходной схеме" vertex="1">
+          <mxGeometry height="32" width="1480" x="40" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="column0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="УЧАСТНИКИ" vertex="1">
+          <mxGeometry height="22" width="240" x="40" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ОПЕРАЦИИ" vertex="1">
+          <mxGeometry height="22" width="360" x="570" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ХРАНИЛИЩА" vertex="1">
+          <mxGeometry height="22" width="300" x="1220" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="laboratory" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Медицинская лаборатория&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="doctor" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Медицинский специалист&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="registry" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;4.1 Зарегистрировать анализ&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Ручная обработка;&lt;br&gt;ответственный в условии не указан&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="result" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;4.2 Сохранить и использовать результат&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Ручная работа с файлом результата&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="registryStore" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 05 · Реестр анализов&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;RegistryByDate · Excel за день&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="registryStore-top" connectable="0" parent="registryStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="registryStore-bottom" connectable="0" parent="registryStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="card" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 04 · Медицинская карта&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Файлы с результатами анализов&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="card-top" connectable="0" parent="card" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="card-bottom" connectable="0" parent="card" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" edge="1" parent="1" source="laboratory" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="registry" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Результат анализа,&lt;br&gt;сведения о пациенте&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2" edge="1" parent="1" source="registry" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="registryStore" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Запись об анализе&lt;br&gt;и его результате&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" edge="1" parent="1" source="registryStore" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="registry" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Записи реестра&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" edge="1" parent="1" source="registry" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0.5;exitY=1;exitPerimeter=1;entryX=0.5;entryY=0;entryPerimeter=1;" target="result" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Результат и связь&lt;br&gt;с пациентом&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" edge="1" parent="1" source="doctor" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="result" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Запрос результата&lt;br&gt;по пациенту&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow6" edge="1" parent="1" source="result" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="doctor" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Результат анализа&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow7" edge="1" parent="1" source="result" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="card" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Файл результата&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow8" edge="1" parent="1" source="card" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="result" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Ранее сохраненный&lt;br&gt;результат&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footerline" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="footerTitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=1;" value="Пояснения" vertex="1">
+          <mxGeometry height="28" width="1480" x="40" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Показан логический поток результатов. Канал связи с лабораторией и порядок регистрации в задании не описаны." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="874" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Реестры анализов и файлы пациентов есть в исходной схеме. Автоматизированный интерфейс лаборатории еще не внедрен." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="931" as="geometry" />
+        </mxCell>
+        <mxCell id="pageNumber" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;align=right;" value="7 / 14" vertex="1">
+          <mxGeometry height="25" width="90" x="1430" y="1060" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="04b" name="04b · Анализы · Защита">
+    <mxGraphModel dx="1646" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=28;fontStyle=1;" value="Учет анализов и результатов" vertex="1">
+          <mxGeometry height="46" width="1480" x="40" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;" value="Предлагаемые меры защиты · те же процессы и хранилища" vertex="1">
+          <mxGeometry height="32" width="1480" x="40" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="column0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="УЧАСТНИКИ" vertex="1">
+          <mxGeometry height="22" width="240" x="40" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ОПЕРАЦИИ" vertex="1">
+          <mxGeometry height="22" width="360" x="570" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ХРАНИЛИЩА" vertex="1">
+          <mxGeometry height="22" width="300" x="1220" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="laboratory" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Медицинская лаборатория&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="doctor" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Медицинский специалист&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="registry" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;4.1 Зарегистрировать анализ&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Ручная обработка;&lt;br&gt;ответственный в условии не указан&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Теги и проверка пациента;&lt;br&gt;доступ уполномоченному врачу; аудит&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="result" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;4.2 Сохранить и использовать результат&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Ручная работа с файлом результата&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Проверка связи с пациентом;&lt;br&gt;права врача; аудит Windows&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="registryStore" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 05 · Реестр анализов&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;RegistryByDate · Excel за день&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Atlas: Персональные, Медицинские&lt;br&gt;Шифрование диска; закрытая папка&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="registryStore-top" connectable="0" parent="registryStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="registryStore-bottom" connectable="0" parent="registryStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="card" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 04 · Медицинская карта&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Файлы с результатами анализов&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Atlas: Персональные, Медицинские&lt;br&gt;Шифрование диска; доступ по пациенту&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="card-top" connectable="0" parent="card" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="card-bottom" connectable="0" parent="card" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" edge="1" parent="1" source="laboratory" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="registry" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Результат анализа,&lt;br&gt;сведения о пациенте&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Защищенный канал; проверка получателя&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2" edge="1" parent="1" source="registry" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="registryStore" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Запись об анализе&lt;br&gt;и его результате&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" edge="1" parent="1" source="registryStore" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="registry" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Записи реестра&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" edge="1" parent="1" source="registry" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0.5;exitY=1;exitPerimeter=1;entryX=0.5;entryY=0;entryPerimeter=1;" target="result" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Результат и связь&lt;br&gt;с пациентом&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Сохранение тегов и связи в Atlas&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" edge="1" parent="1" source="doctor" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="result" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Запрос результата&lt;br&gt;по пациенту&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow6" edge="1" parent="1" source="result" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="doctor" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Результат анализа&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow7" edge="1" parent="1" source="result" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="card" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Файл результата&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow8" edge="1" parent="1" source="card" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="result" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Ранее сохраненный&lt;br&gt;результат&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footerline" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="footerTitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=1;" value="Пояснения" vertex="1">
+          <mxGeometry height="28" width="1480" x="40" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Канал выбирается после уточнения обмена: передача должна быть зашифрована, а получатель проверен." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="874" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Регистрация медицинских результатов предлагается уполномоченному врачу. Ресепшен не получает содержимое анализов." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="931" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Atlas связывает реестр и файл результата. Связь при ручном переносе регистрирует ответственный за процесс." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="988" as="geometry" />
+        </mxCell>
+        <mxCell id="pageNumber" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;align=right;" value="8 / 14" vertex="1">
+          <mxGeometry height="25" width="90" x="1430" y="1060" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="05a" name="05a · Оплата · Сейчас">
+    <mxGraphModel dx="1646" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=28;fontStyle=1;" value="Прием и учет оплаты" vertex="1">
+          <mxGeometry height="46" width="1480" x="40" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;" value="Текущее состояние · по описанию компании и исходной схеме" vertex="1">
+          <mxGeometry height="32" width="1480" x="40" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="column0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="УЧАСТНИКИ" vertex="1">
+          <mxGeometry height="22" width="240" x="40" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ОПЕРАЦИИ" vertex="1">
+          <mxGeometry height="22" width="360" x="570" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ХРАНИЛИЩА" vertex="1">
+          <mxGeometry height="22" width="300" x="1220" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="patient" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Пациент&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cash" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Кассовая машина&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="payment" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;5.1 Принять оплату&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Кассир · ручной учет в Excel&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="accounting" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;5.2 Учесть и сверить платеж&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Получение: компонента 1С&lt;br&gt;Сверка: бухгалтерия&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="excel" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 06 · Оплата в Excel&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Ручной учет платежей&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="excel-top" connectable="0" parent="excel" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="excel-bottom" connectable="0" parent="excel" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="accountingStore" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 07 · Платежи в 1С&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;1С:Бухгалтерия предприятия&lt;br&gt;Файловая база · платежный учет&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="accountingStore-top" connectable="0" parent="accountingStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="accountingStore-bottom" connectable="0" parent="accountingStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" edge="1" parent="1" source="patient" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="payment" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Данные пациента,&lt;br&gt;услуга и сумма оплаты&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2" edge="1" parent="1" source="payment" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="patient" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Подтверждение оплаты&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" edge="1" parent="1" source="payment" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="excel" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Запись об оплате&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" edge="1" parent="1" source="excel" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="payment" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Учтенные платежи&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" edge="1" parent="1" source="payment" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0.12;exitY=1;exitPerimeter=1;entryX=0.5;entryY=0;entryPerimeter=1;" target="cash" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Данные платежа&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="385" />
+              <mxPoint x="160" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow6" edge="1" parent="1" source="payment" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0.5;exitY=1;exitPerimeter=1;entryX=0.5;entryY=0;entryPerimeter=1;" target="accounting" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения Excel&lt;br&gt;для сверки&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow7" edge="1" parent="1" source="cash" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="accounting" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения о принятой оплате&lt;br&gt;TCP/IP — компонента OLE&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow8" edge="1" parent="1" source="accounting" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="accountingStore" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Запись или исправление&lt;br&gt;платежа&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow9" edge="1" parent="1" source="accountingStore" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="accounting" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Учтенные платежи&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footerline" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="footerTitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=1;" value="Пояснения" vertex="1">
+          <mxGeometry height="28" width="1480" x="40" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Кассир ведет двойной учет в Excel и 1С. Сведения от кассовой машины поступают через компоненту 1С." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="874" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Реквизиты банковских карт в условии не указаны и на схему не добавлены." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="931" as="geometry" />
+        </mxCell>
+        <mxCell id="pageNumber" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;align=right;" value="9 / 14" vertex="1">
+          <mxGeometry height="25" width="90" x="1430" y="1060" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="05b" name="05b · Оплата · Защита">
+    <mxGraphModel dx="1646" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=28;fontStyle=1;" value="Прием и учет оплаты" vertex="1">
+          <mxGeometry height="46" width="1480" x="40" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;" value="Предлагаемые меры защиты · те же процессы и хранилища" vertex="1">
+          <mxGeometry height="32" width="1480" x="40" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="column0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="УЧАСТНИКИ" vertex="1">
+          <mxGeometry height="22" width="240" x="40" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ОПЕРАЦИИ" vertex="1">
+          <mxGeometry height="22" width="360" x="570" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ХРАНИЛИЩА" vertex="1">
+          <mxGeometry height="22" width="300" x="1220" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="patient" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Пациент&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cash" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Кассовая машина&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="payment" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;5.1 Принять оплату&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Кассир · ручной учет в Excel&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Код пациента; только данные платежа;&lt;br&gt;права кассира; аудит Windows&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="accounting" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;5.2 Учесть и сверить платеж&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Получение: компонента 1С&lt;br&gt;Сверка: бухгалтерия&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Права 1С; журнал регистрации;&lt;br&gt;сверка с Excel&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="excel" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 06 · Оплата в Excel&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Ручной учет платежей&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Atlas: Персональные, Финансовые&lt;br&gt;Шифрование диска; права на файл&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="excel-top" connectable="0" parent="excel" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="excel-bottom" connectable="0" parent="excel" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="accountingStore" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 07 · Платежи в 1С&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;1С:Бухгалтерия предприятия&lt;br&gt;Файловая база · платежный учет&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Atlas: Персональные, Финансовые&lt;br&gt;Шифрование диска; права 1С&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="accountingStore-top" connectable="0" parent="accountingStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="accountingStore-bottom" connectable="0" parent="accountingStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" edge="1" parent="1" source="patient" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="payment" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Данные пациента,&lt;br&gt;услуга и сумма оплаты&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2" edge="1" parent="1" source="payment" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="patient" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Подтверждение оплаты&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" edge="1" parent="1" source="payment" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="excel" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Запись об оплате&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" edge="1" parent="1" source="excel" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="payment" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Учтенные платежи&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" edge="1" parent="1" source="payment" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0.12;exitY=1;exitPerimeter=1;entryX=0.5;entryY=0;entryPerimeter=1;" target="cash" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Данные платежа&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Только сведения для кассовой операции&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="385" />
+              <mxPoint x="160" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow6" edge="1" parent="1" source="payment" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0.5;exitY=1;exitPerimeter=1;entryX=0.5;entryY=0;entryPerimeter=1;" target="accounting" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения Excel&lt;br&gt;для сверки&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Контролируемая рабочая копия&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow7" edge="1" parent="1" source="cash" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="accounting" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения о принятой оплате&lt;br&gt;TCP/IP — компонента OLE&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Защита сетевого участка; см. примечание&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow8" edge="1" parent="1" source="accounting" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="accountingStore" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Запись или исправление&lt;br&gt;платежа&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow9" edge="1" parent="1" source="accountingStore" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="accounting" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Учтенные платежи&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footerline" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="footerTitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=1;" value="Пояснения" vertex="1">
+          <mxGeometry height="28" width="1480" x="40" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="В Excel остаются код пациента, номер платежа, дата и сумма. Медицинские сведения не копируются." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="874" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Для сети касса–1С предлагается защищенный туннель. Совместимость кассы или шлюзов требуется проверить." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="931" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Роли 1С дополняются запретом прямого копирования базы. OLE не шифрует сеть; аудит ведут Windows и 1С." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="988" as="geometry" />
+        </mxCell>
+        <mxCell id="pageNumber" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;align=right;" value="10 / 14" vertex="1">
+          <mxGeometry height="25" width="90" x="1430" y="1060" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="06a" name="06a · Кадры и зарплата · Сейчас">
+    <mxGraphModel dx="1646" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=28;fontStyle=1;" value="Кадровый учет, зарплата и налоговая отчетность" vertex="1">
+          <mxGeometry height="46" width="1480" x="40" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;" value="Текущее состояние · по описанию компании и исходной схеме" vertex="1">
+          <mxGeometry height="32" width="1480" x="40" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="column0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="УЧАСТНИКИ" vertex="1">
+          <mxGeometry height="22" width="240" x="40" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ОПЕРАЦИИ" vertex="1">
+          <mxGeometry height="22" width="360" x="570" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ХРАНИЛИЩА" vertex="1">
+          <mxGeometry height="22" width="300" x="1220" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="employee" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Сотрудник компании&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tax" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Налоговые органы&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="staff" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;6.1 Вести кадровый учет&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Бухгалтерия&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="salary" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;6.2 Рассчитать зарплату и подготовить отчетность&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Бухгалтерия&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="staffStore" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 08 · Кадры и зарплата&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;1С:Бухгалтерия предприятия&lt;br&gt;Файловая база · кадровый учет&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="staffStore-top" connectable="0" parent="staffStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="staffStore-bottom" connectable="0" parent="staffStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="salaryStore" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 08 · Кадры и зарплата&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Та же база · начисления и налоги&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="salaryStore-top" connectable="0" parent="salaryStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="salaryStore-bottom" connectable="0" parent="salaryStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" edge="1" parent="1" source="employee" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="staff" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения для&lt;br&gt;кадрового учета&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2" edge="1" parent="1" source="staff" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="staffStore" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Кадровые сведения&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" edge="1" parent="1" source="staffStore" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="staff" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сохраненные сведения&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" edge="1" parent="1" source="staff" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0.5;exitY=1;exitPerimeter=1;entryX=0.5;entryY=0;entryPerimeter=1;" target="salary" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Данные для начислений&lt;br&gt;и налогового учета&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" edge="1" parent="1" source="salary" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="tax" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Налоговая отчетность&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow6" edge="1" parent="1" source="salary" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="salaryStore" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Начисления и&lt;br&gt;налоговые документы&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow7" edge="1" parent="1" source="salaryStore" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="salary" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения для расчета&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footerline" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="footerTitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=1;" value="Пояснения" vertex="1">
+          <mxGeometry height="28" width="1480" x="40" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="По условию бухгалтерия ведет кадровый учет, зарплаты и подготовку документов для налоговых органов." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="874" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Точный состав полей и способ отправки отчетности не заданы. Банки и платежные интеграции не предполагаются." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="931" as="geometry" />
+        </mxCell>
+        <mxCell id="pageNumber" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;align=right;" value="11 / 14" vertex="1">
+          <mxGeometry height="25" width="90" x="1430" y="1060" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="06b" name="06b · Кадры и зарплата · Защита">
+    <mxGraphModel dx="1646" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=28;fontStyle=1;" value="Кадровый учет, зарплата и налоговая отчетность" vertex="1">
+          <mxGeometry height="46" width="1480" x="40" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;" value="Предлагаемые меры защиты · те же процессы и хранилища" vertex="1">
+          <mxGeometry height="32" width="1480" x="40" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="column0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="УЧАСТНИКИ" vertex="1">
+          <mxGeometry height="22" width="240" x="40" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ОПЕРАЦИИ" vertex="1">
+          <mxGeometry height="22" width="360" x="570" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ХРАНИЛИЩА" vertex="1">
+          <mxGeometry height="22" width="300" x="1220" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="employee" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Сотрудник компании&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tax" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Налоговые органы&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="staff" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;6.1 Вести кадровый учет&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Бухгалтерия&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Права кадрового учета в 1С;&lt;br&gt;журнал регистрации&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="salary" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;6.2 Рассчитать зарплату и подготовить отчетность&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Бухгалтерия&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Права зарплатного учета в 1С;&lt;br&gt;журнал регистрации&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="staffStore" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 08 · Кадры и зарплата&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;1С:Бухгалтерия предприятия&lt;br&gt;Файловая база · кадровый учет&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Atlas: Персональные, Кадровые&lt;br&gt;Шифрование диска; права 1С&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="staffStore-top" connectable="0" parent="staffStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="staffStore-bottom" connectable="0" parent="staffStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="salaryStore" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 08 · Кадры и зарплата&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Та же база · начисления и налоги&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Atlas: Персональные, Кадровые,&lt;br&gt;Финансовые; шифрование диска&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="salaryStore-top" connectable="0" parent="salaryStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="salaryStore-bottom" connectable="0" parent="salaryStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" edge="1" parent="1" source="employee" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="staff" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения для&lt;br&gt;кадрового учета&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2" edge="1" parent="1" source="staff" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="staffStore" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Кадровые сведения&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" edge="1" parent="1" source="staffStore" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="staff" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сохраненные сведения&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" edge="1" parent="1" source="staff" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0.5;exitY=1;exitPerimeter=1;entryX=0.5;entryY=0;entryPerimeter=1;" target="salary" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Данные для начислений&lt;br&gt;и налогового учета&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Только сведения, нужные для расчета&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" edge="1" parent="1" source="salary" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="tax" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Налоговая отчетность&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Защищенная передача; проверка получателя&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow6" edge="1" parent="1" source="salary" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="salaryStore" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Начисления и&lt;br&gt;налоговые документы&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow7" edge="1" parent="1" source="salaryStore" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="salary" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения для расчета&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footerline" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="footerTitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=1;" value="Пояснения" vertex="1">
+          <mxGeometry height="28" width="1480" x="40" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Тег Финансовые не дает кассиру доступ к зарплатам: дополнительно действуют ограничения Кадровые." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="874" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Нужен доступ через приложение без возможности скопировать файл базы. Одних ролей 1С недостаточно." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="931" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Способ защищенной отправки отчетности уточняется по используемому каналу. Сроки хранения задаются по виду документа." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="988" as="geometry" />
+        </mxCell>
+        <mxCell id="pageNumber" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;align=right;" value="12 / 14" vertex="1">
+          <mxGeometry height="25" width="90" x="1430" y="1060" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="07a" name="07a · Склад и закупки · Сейчас">
+    <mxGraphModel dx="1646" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=28;fontStyle=1;" value="Учет товаров, материалов и закупок" vertex="1">
+          <mxGeometry height="46" width="1480" x="40" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;" value="Текущее состояние · по описанию компании и исходной схеме" vertex="1">
+          <mxGeometry height="32" width="1480" x="40" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="column0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="УЧАСТНИКИ" vertex="1">
+          <mxGeometry height="22" width="240" x="40" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ОПЕРАЦИИ" vertex="1">
+          <mxGeometry height="22" width="360" x="570" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ХРАНИЛИЩА" vertex="1">
+          <mxGeometry height="22" width="300" x="1220" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Сотрудник склада&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bookkeeper" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Бухгалтерия&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="stock" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;7.1 Учесть остатки и закупки&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Сотрудник склада · 1С&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="exchange" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;7.2 Подготовить данные для обмена&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Бухгалтерия / обмен между 1С&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="stockStore" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 09 · Склад&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;1С:Торговля и склад&lt;br&gt;Файловая база&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="stockStore-top" connectable="0" parent="stockStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="stockStore-bottom" connectable="0" parent="stockStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="financeStore" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 10 · Учет закупок&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;1С:Бухгалтерия предприятия&lt;br&gt;Файловая база · хозяйственный учет&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="financeStore-top" connectable="0" parent="financeStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="financeStore-bottom" connectable="0" parent="financeStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" edge="1" parent="1" source="warehouse" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="stock" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Поступления, расход,&lt;br&gt;сведения о закупках&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2" edge="1" parent="1" source="stock" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="warehouse" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Остатки и сведения&lt;br&gt;о закупках&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" edge="1" parent="1" source="stock" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="stockStore" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Учетные записи&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" edge="1" parent="1" source="stockStore" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="stock" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Остатки и&lt;br&gt;учетные документы&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" edge="1" parent="1" source="bookkeeper" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="exchange" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Документы&lt;br&gt;хозяйственного учета&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow6" edge="1" parent="1" source="exchange" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="bookkeeper" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения учета&lt;br&gt;и обмена&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow7" edge="1" parent="1" source="exchange" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="financeStore" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Учетные документы&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow8" edge="1" parent="1" source="financeStore" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="exchange" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Данные бухгалтерского учета&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow9" edge="1" parent="1" source="exchange" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0.5;exitY=0;exitPerimeter=1;entryX=0.5;entryY=1;entryPerimeter=1;" target="stock" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Учетные данные из бухгалтерии&lt;br&gt;Внутриплатформенный обмен OLE&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footerline" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="footerTitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=1;" value="Пояснения" vertex="1">
+          <mxGeometry height="28" width="1480" x="40" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Направление обмена сохранено из исходной схемы: бухгалтерия → торговля и склад." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="874" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Состав передаваемых полей не указан. Наличие персональных данных в закупочных документах требует проверки." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="931" as="geometry" />
+        </mxCell>
+        <mxCell id="pageNumber" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;align=right;" value="13 / 14" vertex="1">
+          <mxGeometry height="25" width="90" x="1430" y="1060" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="07b" name="07b · Склад и закупки · Защита">
+    <mxGraphModel dx="1646" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=28;fontStyle=1;" value="Учет товаров, материалов и закупок" vertex="1">
+          <mxGeometry height="46" width="1480" x="40" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;" value="Предлагаемые меры защиты · те же процессы и хранилища" vertex="1">
+          <mxGeometry height="32" width="1480" x="40" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="column0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="УЧАСТНИКИ" vertex="1">
+          <mxGeometry height="22" width="240" x="40" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ОПЕРАЦИИ" vertex="1">
+          <mxGeometry height="22" width="360" x="570" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="column2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=1;" value="ХРАНИЛИЩА" vertex="1">
+          <mxGeometry height="22" width="300" x="1220" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Сотрудник склада&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bookkeeper" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;Бухгалтерия&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="40" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="stock" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;7.1 Учесть остатки и закупки&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Сотрудник склада · 1С&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Права склада в 1С;&lt;br&gt;журнал регистрации&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="exchange" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=12;absoluteArcSize=1;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:19px&quot;&gt;7.2 Подготовить данные для обмена&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;Бухгалтерия / обмен между 1С&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Ограниченный состав обмена;&lt;br&gt;права 1С; журнал регистрации&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="570" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="stockStore" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 09 · Склад&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;1С:Торговля и склад&lt;br&gt;Файловая база&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Atlas: Внутренние&lt;br&gt;Шифрование диска; права 1С&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="stockStore-top" connectable="0" parent="stockStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="stockStore-bottom" connectable="0" parent="stockStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="financeStore" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=18;align=center;verticalAlign=middle;spacing=12;rounded=0;strokeColor=none;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;b style=&quot;font-size:18px&quot;&gt;Хранилище 10 · Учет закупок&lt;/b&gt;&lt;div style=&quot;font-size:15px;margin-top:8px&quot;&gt;1С:Бухгалтерия предприятия&lt;br&gt;Файловая база · хозяйственный учет&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:8px&quot;&gt;Atlas: Внутренние, Финансовые&lt;br&gt;Шифрование диска; права 1С&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="1220" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="financeStore-top" connectable="0" parent="financeStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="financeStore-bottom" connectable="0" parent="financeStore" style="shape=line;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" edge="1" parent="1" source="warehouse" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="stock" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Поступления, расход,&lt;br&gt;сведения о закупках&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2" edge="1" parent="1" source="stock" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="warehouse" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Остатки и сведения&lt;br&gt;о закупках&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" edge="1" parent="1" source="stock" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="stockStore" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Учетные записи&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" edge="1" parent="1" source="stockStore" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="stock" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Остатки и&lt;br&gt;учетные документы&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" edge="1" parent="1" source="bookkeeper" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="exchange" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Документы&lt;br&gt;хозяйственного учета&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow6" edge="1" parent="1" source="exchange" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="bookkeeper" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Сведения учета&lt;br&gt;и обмена&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow7" edge="1" parent="1" source="exchange" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=1;exitY=0.32;exitPerimeter=1;entryX=0;entryY=0.32;entryPerimeter=1;" target="financeStore" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Учетные документы&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow8" edge="1" parent="1" source="financeStore" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0;exitY=0.72;exitPerimeter=1;entryX=1;entryY=0.72;entryPerimeter=1;" target="exchange" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Данные бухгалтерского учета&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Шифрование SMB&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow9" edge="1" parent="1" source="exchange" style="edgeStyle=none;rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endSize=9;labelBackgroundColor=#ffffff;labelBorderColor=none;align=center;verticalAlign=middle;exitX=0.5;exitY=0;exitPerimeter=1;entryX=0.5;entryY=1;entryPerimeter=1;" target="stock" value="&lt;div style=&quot;width:246px;line-height:1.16;font-size:16px&quot;&gt;Учетные данные из бухгалтерии&lt;br&gt;Внутриплатформенный обмен OLE&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Только хозяйственные сведения&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footerline" parent="1" style="shape=line;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="1480" x="40" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="footerTitle" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=1;" value="Пояснения" vertex="1">
+          <mxGeometry height="28" width="1480" x="40" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="В обмен передаются только хозяйственные сведения. Медицинские карты и кадровые данные в него не входят." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="874" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="При сетевом обмене защищается канал. Пользователи работают через 1С без прямого копирования файла базы." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="931" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;" value="Если в документе найдены персональные сведения, добавляется тег Персональные и пересматриваются права." vertex="1">
+          <mxGeometry height="50" width="1480" x="40" y="988" as="geometry" />
+        </mxCell>
+        <mxCell id="pageNumber" parent="1" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;align=right;" value="14 / 14" vertex="1">
+          <mxGeometry height="25" width="90" x="1430" y="1060" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
