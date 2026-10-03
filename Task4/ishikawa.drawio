@@ -1,0 +1,196 @@
+<mxfile host="Electron" compressed="false">
+  <diagram id="migration-bottlenecks" name="Узкие места при миграции">
+    <mxGraphModel dx="2195" dy="1601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2240" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=left;fontSize=34;fontStyle=1;text;fillColor=none;strokeColor=none;" value="Медикаменте — узкие места при миграции" vertex="1">
+          <mxGeometry height="50" width="2120" x="50" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=left;fontSize=22;text;fillColor=none;strokeColor=none;" value="Диаграмма Исикавы · возможные причины снижения производительности и сбоев" vertex="1">
+          <mxGeometry height="34" width="2120" x="50" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="spine" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;startArrow=none;endArrow=block;endFill=1;endSize=12;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="625" as="sourcePoint" />
+            <mxPoint x="1860" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="effect" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=center;fontSize=26;fontStyle=1;rounded=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;spacing=12;" value="Снижение&lt;br&gt;производительности&lt;br&gt;и сбои&lt;br&gt;при миграции" vertex="1">
+          <mxGeometry height="190" width="330" x="1860" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="category-infrastructure" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=center;fontSize=27;fontStyle=1;text;fillColor=none;strokeColor=none;" value="Инфраструктура" vertex="1">
+          <mxGeometry height="68" width="310" x="215" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="branch-infrastructure" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=2.5;startArrow=none;endArrow=block;endFill=1;endSize=12;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="240" as="sourcePoint" />
+            <mxPoint x="550" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-line-1" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.6;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="315" as="sourcePoint" />
+            <mxPoint x="356.75324675324674" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=left;fontSize=22;text;fillColor=none;strokeColor=none;" value="1. Общий сервер&lt;br&gt;для нескольких систем" vertex="1">
+          <mxGeometry height="60" width="284.75324675324674" x="50" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="cause-line-2" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.6;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="62" y="430" as="sourcePoint" />
+            <mxPoint x="428.4415584415584" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=left;fontSize=22;text;fillColor=none;strokeColor=none;" value="2. Рост объема данных&lt;br&gt;и сетевого обмена" vertex="1">
+          <mxGeometry height="60" width="344.4415584415584" x="62" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="cause-line-3" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.6;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="74" y="545" as="sourcePoint" />
+            <mxPoint x="500.12987012987014" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-3" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=left;fontSize=22;text;fillColor=none;strokeColor=none;" value="3. Массовые загрузки&lt;br&gt;одновременно с приемом" vertex="1">
+          <mxGeometry height="60" width="404.12987012987014" x="74" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="category-software" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=center;fontSize=27;fontStyle=1;text;fillColor=none;strokeColor=none;" value="Программное&lt;br&gt;обеспечение" vertex="1">
+          <mxGeometry height="68" width="310" x="805" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="branch-software" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=2.5;startArrow=none;endArrow=block;endFill=1;endSize=12;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="240" as="sourcePoint" />
+            <mxPoint x="1140" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-line-4" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.6;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="315" as="sourcePoint" />
+            <mxPoint x="946.7532467532468" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-4" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=left;fontSize=22;text;fillColor=none;strokeColor=none;" value="4. Файловый режим 1С&lt;br&gt;при росте нагрузки" vertex="1">
+          <mxGeometry height="60" width="284.7532467532468" x="640" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="cause-line-5" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.6;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="652" y="430" as="sourcePoint" />
+            <mxPoint x="1018.4415584415584" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-5" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=left;fontSize=22;text;fillColor=none;strokeColor=none;" value="5. Разный состав Excel&lt;br&gt;и документов" vertex="1">
+          <mxGeometry height="60" width="344.4415584415584" x="652" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="cause-line-6" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.6;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="664" y="545" as="sourcePoint" />
+            <mxPoint x="1090.1298701298701" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-6" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=left;fontSize=22;text;fillColor=none;strokeColor=none;" value="6. Нагрузка от защиты&lt;br&gt;и подготовки данных" vertex="1">
+          <mxGeometry height="60" width="404.12987012987014" x="664" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="category-integration" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=center;fontSize=27;fontStyle=1;text;fillColor=none;strokeColor=none;" value="Интеграция" vertex="1">
+          <mxGeometry height="68" width="310" x="1395" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="branch-integration" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=2.5;startArrow=none;endArrow=block;endFill=1;endSize=12;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="240" as="sourcePoint" />
+            <mxPoint x="1730" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-line-7" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.6;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="315" as="sourcePoint" />
+            <mxPoint x="1536.7532467532467" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-7" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=left;fontSize=22;text;fillColor=none;strokeColor=none;" value="7. Несогласованные форматы&lt;br&gt;и идентификаторы" vertex="1">
+          <mxGeometry height="60" width="284.7532467532467" x="1200" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cause-line-8" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.6;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1242" y="430" as="sourcePoint" />
+            <mxPoint x="1608.4415584415585" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-8" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=left;fontSize=22;text;fillColor=none;strokeColor=none;" value="8. Задержки и отказы&lt;br&gt;лабораторного обмена" vertex="1">
+          <mxGeometry height="60" width="344.4415584415585" x="1242" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="cause-line-9" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.6;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1254" y="545" as="sourcePoint" />
+            <mxPoint x="1680.1298701298701" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-9" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=left;fontSize=22;text;fillColor=none;strokeColor=none;" value="9. Зависимость касс&lt;br&gt;от обмена с 1С" vertex="1">
+          <mxGeometry height="60" width="404.12987012987014" x="1254" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="category-people" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=center;fontSize=27;fontStyle=1;text;fillColor=none;strokeColor=none;" value="Персонал" vertex="1">
+          <mxGeometry height="55" width="330" x="465" y="1065" as="geometry" />
+        </mxCell>
+        <mxCell id="branch-people" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=2.5;startArrow=none;endArrow=block;endFill=1;endSize=12;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="1040" as="sourcePoint" />
+            <mxPoint x="840" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-line-10" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.6;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="785" as="sourcePoint" />
+            <mxPoint x="747.4698795180723" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-10" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=left;fontSize=22;text;fillColor=none;strokeColor=none;" value="10. Совмещение миграции&lt;br&gt;и текущей поддержки" vertex="1">
+          <mxGeometry height="60" width="385.4698795180723" x="340" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="cause-line-11" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.6;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="930" as="sourcePoint" />
+            <mxPoint x="663.6144578313254" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-11" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=left;fontSize=22;text;fillColor=none;strokeColor=none;" value="11. Освоение новых&lt;br&gt;рабочих действий" vertex="1">
+          <mxGeometry height="60" width="301.61445783132535" x="340" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="category-processes" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=center;fontSize=27;fontStyle=1;text;fillColor=none;strokeColor=none;" value="Процессы" vertex="1">
+          <mxGeometry height="55" width="330" x="1215" y="1065" as="geometry" />
+        </mxCell>
+        <mxCell id="branch-processes" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=2.5;startArrow=none;endArrow=block;endFill=1;endSize=12;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="1040" as="sourcePoint" />
+            <mxPoint x="1590" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-line-12" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.6;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="750" as="sourcePoint" />
+            <mxPoint x="1517.710843373494" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-12" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=left;fontSize=22;text;fillColor=none;strokeColor=none;" value="12. Две изменяемые версии&lt;br&gt;одних данных" vertex="1">
+          <mxGeometry height="60" width="405.7108433734941" x="1090" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="cause-line-13" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.6;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="860" as="sourcePoint" />
+            <mxPoint x="1454.0963855421687" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-13" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=left;fontSize=22;text;fillColor=none;strokeColor=none;" value="13. Неуточненный порядок&lt;br&gt;переключения и возврата" vertex="1">
+          <mxGeometry height="60" width="342.0963855421687" x="1090" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="cause-line-14" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.6;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="970" as="sourcePoint" />
+            <mxPoint x="1390.4819277108434" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cause-14" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontColor=#000000;spacing=0;verticalAlign=middle;align=left;fontSize=22;text;fillColor=none;strokeColor=none;" value="14. Нет исходных замеров&lt;br&gt;и критериев готовности" vertex="1">
+          <mxGeometry height="60" width="278.48192771084337" x="1090" y="900" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
